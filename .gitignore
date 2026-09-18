@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+slcg_venv/
+memory/user_preferences.json

@@ -1,0 +1,249 @@
+[
+  {
+    "id": 1,
+    "topic": "Python Basics",
+    "level": "Beginner",
+    "prerequisites": [],
+    "description": "Variables, data types, conditions, loops, functions and basic programming concepts.",
+    "next_topics": [
+      "Python for Data Science",
+      "Object Oriented Programming"
+    ],
+    "career_roles": [
+      "Python Developer",
+      "Data Analyst",
+      "AI Engineer"
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Python for Data Science",
+    "level": "Beginner",
+    "prerequisites": [
+      "Python Basics"
+    ],
+    "description": "NumPy, Pandas, data manipulation, data cleaning and basic visualization.",
+    "next_topics": [
+      "Machine Learning Basics"
+    ],
+    "career_roles": [
+      "Data Analyst",
+      "Data Scientist",
+      "AI Engineer"
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "SQL Basics",
+    "level": "Beginner",
+    "prerequisites": [],
+    "description": "Queries, filtering, grouping, joins and basic database concepts.",
+    "next_topics": [
+      "Data Analytics"
+    ],
+    "career_roles": [
+      "Data Analyst",
+      "Data Scientist"
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Machine Learning Basics",
+    "level": "Intermediate",
+    "prerequisites": [
+      "Python for Data Science"
+    ],
+    "description": "Supervised learning, unsupervised learning, model evaluation and basic ML algorithms.",
+    "next_topics": [
+      "Deep Learning",
+      "LLM Fundamentals"
+    ],
+    "career_roles": [
+      "Machine Learning Engineer",
+      "Data Scientist",
+      "AI Engineer"
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "LLM Fundamentals",
+    "level": "Intermediate",
+    "prerequisites": [
+      "Python for Data Science"
+    ],
+    "description": "Large language models, tokens, embeddings, Transformer architecture and generation.",
+    "next_topics": [
+      "Prompt Engineering",
+      "RAG"
+    ],
+    "career_roles": [
+      "AI Engineer",
+      "Generative AI Engineer"
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Prompt Engineering",
+    "level": "Beginner",
+    "prerequisites": [
+      "LLM Fundamentals"
+    ],
+    "description": "Designing effective prompts, instructions, examples and structured outputs.",
+    "next_topics": [
+      "RAG",
+      "Agent Architecture"
+    ],
+    "career_roles": [
+      "AI Engineer",
+      "Generative AI Engineer"
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "RAG",
+    "level": "Intermediate",
+    "prerequisites": [
+      "LLM Fundamentals"
+    ],
+    "description": "Retrieval-Augmented Generation, document retrieval and grounding LLM responses with external knowledge.",
+    "next_topics": [
+      "Agent Architecture"
+    ],
+    "career_roles": [
+      "AI Engineer",
+      "Generative AI Engineer"
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Agent Architecture",
+    "level": "Intermediate",
+    "prerequisites": [
+      "LLM Fundamentals",
+      "Python Basics"
+    ],
+    "description": "LLMs, tools, agent runtime, observations, state, memory and decision loops.",
+    "next_topics": [
+      "Agentic AI Projects"
+    ],
+    "career_roles": [
+      "AI Engineer",
+      "Agentic AI Engineer"
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Agentic AI Projects",
+    "level": "Advanced",
+    "prerequisites": [
+      "Agent Architecture",
+      "RAG"
+    ],
+    "description": "Building practical AI agents using tools, memory, workflows and external knowledge.",
+    "next_topics": [],
+    "career_roles": [
+      "AI Engineer",
+      "Agentic AI Engineer"
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Deep Learning Basics",
+    "level": "Intermediate",
+    "prerequisites": [
+      "Python for Data Science",
+      "Machine Learning Basics"
+    ],
+    "description": "Neural networks, training concepts, loss functions and common deep learning architectures.",
+    "next_topics": [
+      "LLM Fundamentals"
+    ],
+    "career_roles": [
+      "Deep Learning Engineer",
+      "AI Engineer"
+    ]
+  },
+  {
+    "id": 11,
+    "topic": "Data Analytics",
+    "level": "Beginner",
+    "prerequisites": [
+      "SQL Basics"
+    ],
+    "description": "Exploratory analysis, dashboards, descriptive statistics and communicating data insights.",
+    "next_topics": [
+      "Data Science Foundations"
+    ],
+    "career_roles": [
+      "Data Analyst",
+      "Business Analyst"
+    ]
+  },
+  {
+    "id": 12,
+    "topic": "Object Oriented Programming",
+    "level": "Intermediate",
+    "prerequisites": [
+      "Python Basics"
+    ],
+    "description": "Classes, objects, inheritance, composition and reusable software design in Python.",
+    "next_topics": [
+      "Python for Data Science",
+      "Software Engineering Basics"
+    ],
+    "career_roles": [
+      "Python Developer",
+      "Software Engineer",
+      "AI Engineer"
+    ]
+  },
+  {
+    "id": 13,
+    "topic": "Software Engineering Basics",
+    "level": "Intermediate",
+    "prerequisites": [
+      "Python Basics"
+    ],
+    "description": "Git, testing, modular code, APIs, debugging and basic software development practices.",
+    "next_topics": [
+      "Agent Architecture"
+    ],
+    "career_roles": [
+      "Software Engineer",
+      "AI Engineer"
+    ]
+  },
+  {
+    "id": 14,
+    "topic": "Statistics for Data Science",
+    "level": "Beginner",
+    "prerequisites": [
+      "Python Basics"
+    ],
+    "description": "Descriptive statistics, probability basics, distributions and statistical reasoning for data work.",
+    "next_topics": [
+      "Machine Learning Basics"
+    ],
+    "career_roles": [
+      "Data Scientist",
+      "Data Analyst"
+    ]
+  },
+  {
+    "id": 15,
+    "topic": "Data Science Foundations",
+    "level": "Intermediate",
+    "prerequisites": [
+      "Python for Data Science",
+      "Statistics for Data Science"
+    ],
+    "description": "End-to-end data science workflow including data preparation, analysis, modeling and evaluation.",
+    "next_topics": [
+      "Machine Learning Basics"
+    ],
+    "career_roles": [
+      "Data Scientist",
+      "AI Engineer"
+    ]
+  }
+]
